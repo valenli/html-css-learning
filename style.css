@@ -1,0 +1,154 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+body a{
+    color: white;
+}
+body a:hover{
+    color: orangered;
+}
+body {
+    margin: 0;
+}
+.header {
+    background-color:rgb(46, 44, 44);
+    color: white; 
+    padding: 10px; 
+    
+}
+.headList{
+    color: white;
+}
+.secondList{
+    
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around; 
+    
+}
+.secondList a{
+    font-size: 15px;
+}
+
+.footerList{
+    justify-content: space-around;
+    display: flex;
+}
+.footerList a{
+    font-weight: bold;
+    color: black;
+}
+.img{
+    width: 105px;
+    height: 100px;
+    
+}
+.logo {
+    text-align: center;
+}
+.userActions{
+    justify-content: end;
+    display: flex;
+}
+.userActions .login{
+    margin-right:20px ;
+}
+hr{
+    width: 90%;
+    border: none; /* 移除預設的邊框 */
+    border-top: 1px solid #000;
+    opacity: 0.2;
+}
+.lastDiv{
+    text-align: center;
+    background-color: rgb(46, 44, 44);
+    color: #fff;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+}
+.firstBanner{
+    background: url('womenModel/fitness.jpg') no-repeat center ;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    
+}
+.btnShop h2{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    display: inline;
+}
+.inShop{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 20px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid;
+}
+.menClothes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -4%;
+}
+.menClothesImg{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+.menClothesImg img{
+    width: 100%;
+    height: 100%;
+    
+}
+.menClothesImg a{
+    display: inline-block;
+    width: 25%;
+    height: 5%;
+    margin: 10px;
+}
+.womenClothes{
+    display: flex;
+    justify-content: center;
+    margin:-4%;
+}
+.womenClothesImg{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+.womenClothesImg img{
+    width: 100%;
+    height: 100%;
+    
+}
+.womenClothesImg a{
+    display: inline-block;
+    width: 25%;
+    height: 5%;
+    margin: 10px;
+}
+.seeMore{
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+}
+.more{
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(46, 44, 44);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.more:hover{
+    color: orangered;
+}
